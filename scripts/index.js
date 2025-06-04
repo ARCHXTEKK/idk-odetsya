@@ -27,42 +27,72 @@ function initializeSliders() {
 function initializeModals() {
 
   const modalWrapper = document.querySelector('.modal-wrapper');
+  const modalSections = document.querySelector('.modal-sections');
+  const modalSearch = document.querySelector('.modal-search');
+  const modalCart = document.querySelector('.modal-cart');
   sectionsModal();
   searchModal();
+  cartModal();
+  closeOnClickOutside();
+
+  function closeOnClickOutside() {
+    modalWrapper.addEventListener('click', (e) => {
+      let modals = [modalSearch, modalSections, modalCart]
+      if (!modals.some(x => x.contains(e.target))) {
+        modalWrapper.classList.remove('active');
+        modalSections.classList.remove('active');
+        modalSearch.classList.remove('active');
+        modalCart.classList.remove('active');
+      }
+    })
+  }
 
   function sectionsModal() {
-    const modalSections = document.querySelector('.modal-sections');
 
     const modalSectionsClose = document.querySelector('.modal-sections__close');
 
     const burger = document.querySelector('[data-js-burger-btn]');
 
     burger.addEventListener('click', () => {
-      modalWrapper.classList.toggle('active');
-      modalSections.classList.toggle('active');
+      modalWrapper.classList.add('active');
+      modalSections.classList.add('active');
     })
 
     modalSectionsClose.addEventListener('click', () => {
-      modalWrapper.classList.toggle('active');
-      modalSections.classList.toggle('active');
+      modalWrapper.classList.remove('active');
+      modalSections.classList.remove('active');
     });
   }
 
   function searchModal() {
     const searchBtn = document.querySelector('[data-js-search-btn]');
-    const modalSearch = document.querySelector('.modal-search');
     const modalSearchClose = document.querySelector('.modal-search__close');
 
     searchBtn.addEventListener('click', () => {
-      modalWrapper.classList.toggle('active');
-      modalSearch.classList.toggle('active');
+      modalWrapper.classList.add('active');
+      modalSearch.classList.add('active');
     })
 
     modalSearchClose.addEventListener('click', () => {
-      modalWrapper.classList.toggle('active');
-      modalSearch.classList.toggle('active');
+      modalWrapper.classList.remove('active');
+      modalSearch.classList.remove('active');
     })
 
+  }
+
+  function cartModal() {
+    const cartBtn = document.querySelector('[data-js-cart-btn]');
+    const cartClose = document.querySelector('.modal-cart__close');
+
+    cartBtn.addEventListener('click', () => {
+      modalWrapper.classList.add('active');
+      modalCart.classList.add('active');
+    })
+
+    cartClose.addEventListener('click', () => {
+      modalWrapper.classList.remove('active');
+      modalCart.classList.remove('active');
+    })
   }
 
 }
