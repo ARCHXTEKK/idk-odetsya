@@ -1,0 +1,32 @@
+@use '../helpers/' as *;
+
+.text-block {
+  margin-inline: auto;
+  display: flex;
+  justify-content: center;
+  overflow: clip;
+  position: relative;
+
+  background-color: var(--clr-light-gray);
+  color: var(--clr-white);
+
+  &__container {
+    text-align: center;
+    @include abs-center();
+
+    text-transform: uppercase;
+    font-weight: 700;
+
+    letter-spacing: -0.11em;
+
+  }
+
+  &__title {
+    font-size: fluid(36, 20);
+  }
+
+  &__subtitle {
+    font-size: fluid(24, 16);
+  }
+  
+}

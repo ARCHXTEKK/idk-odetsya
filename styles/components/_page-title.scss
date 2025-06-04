@@ -1,0 +1,13 @@
+@use '../helpers/' as *;
+
+.page-title {
+  display: flex;
+  gap: fluid(20, 12);
+  margin-bottom: fluid(57, 30);
+  font-size: fluid(36, 16);
+  font-weight: 700;
+  text-transform: uppercase;
+  &--thin {
+    letter-spacing: -0.1em;
+  }
+}

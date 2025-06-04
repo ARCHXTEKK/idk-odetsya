@@ -1,0 +1,59 @@
+@use '../helpers/' as *;
+
+.form-2 {
+  display: flex;
+  flex-direction: column;
+  gap: fluid(24, 16);
+
+  background-color: var(--clr-dark);
+  padding: fluid(60, 30) fluid(40, 20);
+
+  color: var(--clr-white);
+  height: max-content;
+
+  &__title {
+    font-size: fluid(20, 16);
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    gap: fluid(10, 4);
+  }
+
+  &__subtitle {
+    font-size: rem(16);
+    font-weight: 500;
+    letter-spacing: -0.04em;
+  }
+
+  &__inputs {
+    display: flex;
+    flex-direction: column;
+    gap: rem(14);
+    color: var(--clr-black);
+  }
+
+  &__input {
+    padding: rem(12) rem(16);
+    width: 100%;
+  
+    &-tel {
+      padding-left: rem(40);
+    }
+    &-tel-wrapper {
+      position: relative;
+      &::before {
+        display: flex;
+        align-items: center;
+        content: '+7';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: rem(16);
+      }
+    }
+  }
+}

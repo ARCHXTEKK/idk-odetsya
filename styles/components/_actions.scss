@@ -1,0 +1,8 @@
+@use '../helpers' as *;
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: fluid(30, 16);
+}

@@ -1,0 +1,11 @@
+@use "../helpers/" as *;
+
+.favourites {
+  padding-bottom: fluid(120, 40);
+  &__content {
+    display: flex;
+    gap: fluid(40, 20);
+
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,110 @@
+@use 'vars' as *;
+
+// medias
+
+@mixin mobile-m {
+  @media (max-width: $mobile-m) {
+    @content
+  }
+};
+@mixin mobile-m-above {
+  @media (min-width: $mobile-m) {
+    @content
+  }
+};
+
+// 
+ 
+@mixin mobile-l {
+  @media (max-width: $mobile-l) {
+    @content
+  }
+};
+@mixin mobile-l-above {
+  @media (min-width: $mobile-l) {
+    @content
+  }
+};
+
+//
+
+@mixin tablet-sm {
+  @media (max-width: $tablet-sm) {
+    @content
+  }
+};
+@mixin tablet-sm-above {
+  @media (min-width: $tablet-sm) {
+    @content
+  }
+};
+
+// 
+ 
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content
+  }
+};
+@mixin tablet-above {
+  @media (min-width: $tablet) {
+    @content
+  }
+};
+
+// 
+ 
+@mixin laptop {
+  @media (max-width: $laptop) {
+    @content
+  }
+};
+@mixin laptop-above {
+  @media (min-width: $laptop) {
+    @content
+  }
+};
+
+// 
+ 
+@mixin laptop-l {
+  @media (max-width: $laptop-l) {
+    @content
+  }
+};
+@mixin laptop-l-above {
+  @media (min-width: $laptop-l) {
+    @content
+  }
+};
+
+// 
+
+@mixin desktop {
+  @media (max-width: $desktop) {
+    @content
+  }
+};
+@mixin desktop-above {
+  @media (min-width: $desktop) {
+    @content
+  }
+};
+ 
+// others
+
+@mixin abs-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}

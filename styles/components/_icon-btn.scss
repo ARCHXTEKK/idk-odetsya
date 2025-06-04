@@ -1,0 +1,16 @@
+@use '../helpers/' as *;
+
+.icon-btn {
+  cursor: pointer;
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: fluid(30, 20);
+  height: fluid(30, 20);
+  
+  & > img {
+  display: block;
+  }
+}

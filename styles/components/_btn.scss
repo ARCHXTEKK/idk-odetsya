@@ -1,0 +1,27 @@
+@use "../helpers/" as *;
+
+.btn {
+  padding: fluid(18, 8);
+  font-size: fluid(20, 16);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background-color: var(--clr-dark);
+
+  transition: background-color var(--transition);
+  &:hover {
+    background-color: var(--clr-dark-gray);
+  }
+
+  &--black {
+    background-color: var(--clr-black);
+  }
+
+  &--beige {
+    background-color: var(--clr-beige);
+    color: var(--clr-black);
+    &:hover {
+      background-color: var(--clr-primary);
+    }
+  }
+}

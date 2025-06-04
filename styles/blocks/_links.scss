@@ -1,0 +1,32 @@
+@use '../helpers/' as *;
+
+.links {
+  padding-block: fluid(130, 30);
+
+  color: var(--clr-white);
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: rem(12);
+  }
+ 
+  &__item {
+    &-text {
+      @include abs-center();
+
+      font-size: fluid(32, 12);
+      font-weight: 700;
+    }
+
+    &-img {
+      object-fit: cover;
+      width: fluid(300, 106);
+      height: fluid(250, 88);
+
+    }
+  }
+
+  &__text-wrapper {
+    position: relative;
+  }
+}

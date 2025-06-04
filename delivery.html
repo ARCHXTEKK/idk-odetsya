@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odetsya - Доставка, оплата и возврат</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="actions">
+        <button class="icon-btn" data-js-burger-btn>
+          <img src="assets/icons/burger.svg" alt="">
+        </button>
+        <button class="icon-btn" data-js-search-btn>
+          <img src="assets/icons/search.svg" alt="">
+        </button>
+      </div>
+
+      <a href="/" class="logo header__logo">
+        <img src="assets/icons/logo.svg" alt="">
+      </a>
+
+      <div class="actions">
+        <a href="/" class="icon-btn">
+          <img src="assets/icons/heart.svg" alt="">
+        </a>
+
+        <div class="icon-btn">
+          <img src="assets/icons/user.svg" alt="">
+        </div>
+
+        <div class="icon-btn">
+          <img src="assets/icons/cart.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="delivery">
+      <div class="container delivery__container">
+
+        <div class="delivery__info">
+
+          <div class="delivery__info-block">
+            <h2 class="text-big text-compact text-ttu">ДОСТАВКА</h2>
+            <dl class="delivery__info-subblock">
+              <div>
+                <dt>ПО МОСКВЕ</dt>
+                <dd>3-4 рабочих дня. Стоимость 500 рублей.</dd>
+              </div>
+              <div>
+                <dt>КУРЬЕРОМ</dt>
+                <dd>Москва за пределами МКАД, Московская область и другие города. Расчет стоимости производится при
+                  оформлении заказа</dd>
+              </div>
+              <div>
+                <dt>В ПУНКТ ВЫДАЧИ</dt>
+                <dd>Расчет стоимости производится при оформлении заказа</dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="delivery__info-block">
+            <h2 class="text-big text-compact text-ttu">Оплата</h2>
+            <p class="text text-compact-s text-medium">
+              Вы всегда можете связаться с нами. Наша служба поддержки клиентов доступна с
+              понедельника по пятницу с 9:00 до 21:00 по МСК
+            </p>
+          </div>
+
+
+        </div>
+
+        <form action="" class="form-2 delivery__form">
+          <div class="form-2__titles">
+            <h2 class="form-2__title">Остались вопросы или
+              хотите оформить возврат?</h2>
+            <h3 class="form-2__subtitle">
+              Оставьте вашу заявку и мы свяжемся
+              с вами в ближайшее время.
+            </h3>
+          </div>
+          <div class="form-2__inputs">
+            <input type="text" class="form-2__input" placeholder="Имя">
+            <div class="form-2__input-tel-wrapper">
+              <input type="tel" class="form-2__input form-2__input-tel" placeholder="123-456-78-99">
+            </div>
+            <input type="text" class="form-2__input" placeholder="Комментарий">
+          </div>
+
+          <button class="btn btn--beige form-2__btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+        </form>
+        <picture class="delivery__bg-img">
+          <source srcset="assets/images/delivery/bg.avif" type="image/avif">
+          <source srcset="assets/images/delivery/bg.webp" type="image/webp">
+          <img src="assets/images/delivery/bg.jpg" alt="">
+        </picture>
+      </div>
+
+      <div class="container delivery__container">
+        <div class="delivery__info-block">
+          <h2 class="text-big text-compact text-ttu">Возврат</h2>
+          <h3 class="text-l text-compact text-ttu">ИНФОРМАЦИЯ ОБ ОБМЕНЕ И ВОЗВРАТЕ ОНЛАЙН ЗАКАЗА</h3>
+          <p class="text text-compact-s text-medium">
+            Вернуть или обменять товар можно в течение 14 дней, если он не был использован и сохранен его товарный вид.
+            Свяжитесь с нами для оформления возврата, указав номер заказа и причину. Деньги вернем тем же способом, что
+            и оплата, за вычетом стоимости доставки. Возврат денежных средств будет осуществлен в течении 10 дней с даты
+            получения возврата. Подробнее – [ссылка на полную версию политики возврата]
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="/" class="logo footer__logo">
+        <img src="assets/icons/logo_hovere.svg" alt="back to homepage">
+      </a>
+
+      <p class="footer__tel">
+        +7 900 900 90 90
+      </p>
+
+      <div class="footer__socials">
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/instagram.svg" alt="">
+        </a>
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/telegram.svg" alt="">
+        </a>
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/vk.svg" alt="">
+        </a>
+      </div>
+
+      <div class="footer__links">
+        <a href="delivery.html" class="footer__links-link">
+          доставка, оплата и возврат
+        </a>
+        <a href="contacts.html" class="footer__links-link">
+          контакты
+        </a>
+        <a href="faq.html" class="footer__links-link">
+          FAQ
+        </a>
+        <a href="laws.html" class="footer__links-link">
+          правовая информация
+        </a>
+      </div>
+
+      <a href="nav.html" class="footer__link">
+        карта сайта
+      </a>
+    </div>
+  </footer>
+
+  <script src="scripts/details.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+@use '../helpers/' as *;
+
+.product-carousel {
+  color: var(--clr-dark);
+  width: 100% !important;
+  // max-width: fluid(1140, 342) !important;
+  margin: 0 !important;
+
+  &__button-next, &__button-prev {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    cursor: pointer;
+
+    & > img {
+    width: fluid(30, 15);
+    height: fluid(30, 15);
+    }
+  }
+
+  &__button-prev {
+    left: -80px;
+    @include laptop() {
+      left: rem(7); 
+    }
+  }
+
+  &__button-next {
+    right: -80px;
+
+    @include laptop() {
+      right: rem(7)
+    }
+  }
+
+  
+}

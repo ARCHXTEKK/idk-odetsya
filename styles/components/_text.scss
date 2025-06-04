@@ -1,0 +1,29 @@
+@use '../helpers/' as *;
+
+.text {
+  font-weight: 400;
+  font-size: fluid(20, 16);
+  &-big {
+    font-size: fluid(36, 16);
+    font-weight: 700;
+  }
+
+  &-medium {
+    font-weight: 500;
+  }
+
+  
+  &-l {
+    font-size: fluid(24, 18);
+    font-weight: 500;
+  }
+  &-ttu {
+    text-transform: uppercase;
+  }
+  &-compact {
+    letter-spacing: -0.1em;
+    &-s {
+      letter-spacing: -0.04em;
+    }
+  }
+}

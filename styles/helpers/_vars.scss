@@ -1,0 +1,28 @@
+// css vars
+
+:root {
+  --clr-primary: #EFEBE3;
+  --clr-dark: #232125;
+  --clr-black: #151517;
+  --clr-dark-gray: #4E4E4E;
+  --clr-gray: #838383;
+  --clr-light-gray: #C4C4C4;
+  --clr-white: #FFFFFF;
+  --clr-beige: #DCD7CD;
+
+  --transition: 0.2s ease;
+}
+
+// breakpoints
+
+$mobile-s: 340px;
+$mobile-m: 375px;
+$mobile-l: 425px;
+
+$tablet-sm: 664px;
+$tablet: 768px;
+
+$laptop: 1024px;
+$laptop-l: 1440px;
+
+$desktop: 1920px; 

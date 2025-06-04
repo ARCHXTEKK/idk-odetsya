@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "sass": "sass -w ./styles/main.scss ./styles/main.css"
+  },
+  "devDependencies": {
+    "sass": "^1.89.1"
+  },
+  "dependencies": {
+    "swiper": "^11.2.8"
+  }
+}

@@ -1,0 +1,19 @@
+@use "../helpers/" as *;
+
+.link-w-icon {
+  display: flex;
+  justify-content: center;
+  gap: rem(6);
+  align-items: center;
+  height: max-content;
+
+  & > span {
+    font-weight: 700;
+    font-size: rem(20);
+    display: flex;
+  }
+
+  &__icon {
+    display: flex;
+  }
+}

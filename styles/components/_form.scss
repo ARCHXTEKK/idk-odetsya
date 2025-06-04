@@ -1,0 +1,50 @@
+@use '../helpers/' as *;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: rem(16);
+
+  &__row {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: rem(10);
+  }
+
+  &__label {
+    color: var(--clr-light-gray);
+    font-size: fluid(20, 16);
+    font-weight: 500;
+  }
+
+  &__input {
+    width: 100%;
+    border: 1px solid var(--clr-light-gray);
+    padding: fluid(19, 8) fluid(24, 14);
+
+    font-size: fluid(20, 16);
+    font-weight: 700;
+  }
+
+  &__btn {
+    margin-top: rem(10);
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  &__link {
+    font-size: fluid(20, 14);
+    cursor: pointer;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+    align-self: center;
+
+    margin-top: rem(10);
+
+    color: var(--clr-black);
+  }
+}

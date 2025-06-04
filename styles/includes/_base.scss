@@ -1,0 +1,11 @@
+body {
+  font-family: "Gotham Pro";
+  color: var(--clr-black);
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+

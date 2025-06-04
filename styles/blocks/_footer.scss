@@ -1,0 +1,76 @@
+@use '../helpers/' as *;
+
+.footer {
+  background-color: var(--clr-dark);
+  font-size: fluid(16, 12);
+  font-weight: 500;
+  padding-block: fluid(50, 30);
+
+  color: var(--clr-white);
+
+  &__logo {
+    width: fluid(112, 75);
+    height: fluid(23, 15);
+  }
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__tel {
+    justify-self: end;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    row-gap: fluid(16, 8);
+
+    @include tablet() {
+      grid-template-columns: auto auto;
+      grid-template-rows: auto auto;
+    }
+  }
+
+  &__socials {
+    display: flex;
+    align-items: center;
+    gap: fluid(36, 16);
+
+    &-link {
+      width: fluid(20, 13);
+      height: fluid(20, 13);
+    }
+
+    @include tablet() {
+      grid-column: 2;
+      grid-row: 2;
+      justify-self: end;
+      align-self: flex-end;
+    }
+  }
+
+  &__links {
+    grid-column: 1;
+    
+    display: flex;
+    gap: fluid(54, 22);
+    @include tablet() {
+      flex-direction: column;
+      gap: fluid(20, 12);
+    }
+  }
+
+  &__link {
+    justify-self: end;
+    
+    @include tablet() {
+      display: none;
+    }
+
+
+  }
+}

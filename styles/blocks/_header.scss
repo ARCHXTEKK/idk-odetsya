@@ -1,0 +1,22 @@
+@use '../helpers/' as *;
+
+.header {
+  background-color: var(--clr-white);
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  &__container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: rem(116);
+  }
+  &__logo {
+    @include abs-center();
+  }
+}

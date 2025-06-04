@@ -1,0 +1,28 @@
+@use '../helpers/' as *;
+
+.card {
+  font-weight: 700;
+
+  &__bg {
+    position: relative;
+    width: fit-content;
+    &-img {
+      width: fluid(300, 106);
+      height: fluid(450, 159);
+    }
+    &-btn {
+      position: absolute;
+      top: fluid(9, 6);
+      right: fluid(18, 6);
+    }
+  }
+   
+  &__title {
+    margin-top: rem(12);
+    font-size: fluid(20, 12);
+  }
+  &__price {
+    font-size: fluid(16, 12);
+  }
+
+}

@@ -1,0 +1,15 @@
+@use '../helpers/' as *;
+
+.registration {
+  padding-block: rem(80) fluid(120, 40);
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    max-width: max-content;
+  }
+
+  &__form {
+    max-width: rem(250);
+  }
+}

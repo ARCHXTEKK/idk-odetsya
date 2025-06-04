@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odetsya - Контакты</title>
+
+  <link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="actions">
+        <button class="icon-btn" data-js-burger-btn>
+          <img src="assets/icons/burger.svg" alt="">
+        </button>
+        <button class="icon-btn" data-js-search-btn>
+          <img src="assets/icons/search.svg" alt="">
+        </button>
+      </div>
+
+      <a href="/" class="logo header__logo">
+        <img src="assets/icons/logo.svg" alt="">
+      </a>
+
+      <div class="actions">
+        <a href="/" class="icon-btn">
+          <img src="assets/icons/heart.svg" alt="">
+        </a>
+
+        <div class="icon-btn">
+          <img src="assets/icons/user.svg" alt="">
+        </div>
+
+        <div class="icon-btn">
+          <img src="assets/icons/cart.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="contacts">
+      <div class="container contacts__container">
+
+        <div class="contacts__info">
+          <div class="contacts__info-block">
+            <h2 class="text-big text-compact text-ttu">СВЯЖИТЕСЬ С НАМИ</h2>
+            <p class="text text-compact-s">
+              Вы всегда можете связаться с нами. Наша служба поддержки клиентов доступна с
+              понедельника по пятницу с 9:00 до 21:00 по МСК
+            </p>
+          </div>
+          <div class="contacts__info-block">
+            <h2 class="text-big text-compact text-ttu">Контакты</h2>
+            <dl class="contacts__info-subblock">
+              <div>
+                <dt>Телефон</dt>
+                <dd>+7 900 900 90 90</dd>
+              </div>
+              <div>
+                <dt>Email</dt>
+                <dd>shop@odetsya.ru</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+
+        <form action="" class="form-2 contacts__form">
+          <div class="form-2__titles">
+            <h2 class="form-2__title">Чат со стилистом</h2>
+            <h3 class="form-2__subtitle">
+              Оставьте вашу заявку и мы свяжемся
+              с вами в ближайшее время.
+            </h3>
+          </div>
+          <div class="form-2__inputs">
+            <input type="text" class="form-2__input" placeholder="Имя">
+            <div class="form-2__input-tel-wrapper">
+              <input type="tel" class="form-2__input form-2__input-tel" placeholder="123-456-78-99">
+            </div>
+            <input type="text" class="form-2__input" placeholder="Комментарий">
+          </div>
+
+          <button class="btn btn--beige form-2__btn">ОТПРАВИТЬ ЗАЯВКУ</button>
+        </form>
+        <picture class="contacts__bg-img">
+          <source srcset="assets/images/contacts/bg.avif" type="image/avif">
+          <source srcset="assets/images/contacts/bg.webp" type="image/webp">
+          <img src="assets/images/contacts/bg.jpg" alt="">
+        </picture>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__container">
+      <a href="/" class="logo footer__logo">
+        <img src="assets/icons/logo_hovere.svg" alt="back to homepage">
+      </a>
+
+      <p class="footer__tel">
+        +7 900 900 90 90
+      </p>
+
+      <div class="footer__socials">
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/instagram.svg" alt="">
+        </a>
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/telegram.svg" alt="">
+        </a>
+        <a href="/" class="footer__socials-link">
+          <img src="assets/icons/socials/vk.svg" alt="">
+        </a>
+      </div>
+
+      <div class="footer__links">
+        <a href="delivery.html" class="footer__links-link">
+          доставка, оплата и возврат
+        </a>
+        <a href="contacts.html" class="footer__links-link">
+          контакты
+        </a>
+        <a href="faq.html" class="footer__links-link">
+          FAQ
+        </a>
+        <a href="laws.html" class="footer__links-link">
+          правовая информация
+        </a>
+      </div>
+
+      <a href="nav.html" class="footer__link">
+        карта сайта
+      </a>
+    </div>
+  </footer>
+
+  <script src="scripts/details.js" defer></script>
+</body>
+
+</html>

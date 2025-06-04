@@ -1,0 +1,10 @@
+@use '../helpers/' as *;
+
+.products {
+  &__container {
+    margin-block: fluid(150, 30);
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+}

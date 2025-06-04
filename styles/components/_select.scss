@@ -1,0 +1,33 @@
+@use "../helpers/" as *;
+
+.select {
+  
+  appearance: none;
+
+  border: 1px solid var(--clr-light-gray);
+  padding-block: fluid(15, 10);
+  padding-left: fluid(20, 12);
+  padding-right: rem(45);
+  
+  &-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      z-index: 10;
+      right: rem(20);
+
+      background-image: url("../../assets/icons/arrow-short-bottom.svg");
+      background-repeat: no-repeat;
+      width: rem(15);
+      height: rem(15);
+
+      opacity: 0.4;
+    }
+  }  
+}
+

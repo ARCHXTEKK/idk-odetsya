@@ -1,0 +1,15 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  font-family: inherit;
+
+  border: none;
+  outline: none;
+  text-decoration: none;
+  list-style-type: none;
+}

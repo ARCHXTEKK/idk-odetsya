@@ -1,0 +1,35 @@
+@use '../helpers/' as *;
+
+.promo {
+  padding-block: rem(19);
+  background-color: var(--clr-dark);
+
+  color: var(--clr-white);
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    gap: rem(30);
+    overflow: hidden;
+
+    @include tablet-sm() {
+      justify-content: space-around;
+    }
+
+    @include mobile-l() {
+      justify-content: space-between;
+    }
+  }
+  &-text {
+    text-transform: uppercase;
+    font-weight: 700;
+
+    font-size: fluid(20, 12);
+    text-wrap: nowrap;
+
+    @include tablet-sm() {
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+}
