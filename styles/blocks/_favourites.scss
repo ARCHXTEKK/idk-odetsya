@@ -5,7 +5,11 @@
   &__content {
     display: flex;
     gap: fluid(40, 20);
+    justify-content: space-between;
 
     flex-wrap: wrap;
+    & > *:nth-last-child {
+      justify-self: start;
+    }
   }
 }

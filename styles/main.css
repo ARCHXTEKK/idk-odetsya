@@ -1086,7 +1086,7 @@ main {
 
 .header {
   background-color: var(--clr-white);
-  position: fixed;
+  position: sticky;
   z-index: 5;
   left: 0;
   right: 0;
@@ -1388,7 +1388,11 @@ main {
 .favourites__content {
   display: flex;
   gap: clamp(1.25rem, 0.7692307692rem + 1.9230769231vw, 2.5rem);
+  justify-content: space-between;
   flex-wrap: wrap;
+}
+.favourites__content > *:nth-last-child {
+  justify-self: start;
 }
 
 .registration {
