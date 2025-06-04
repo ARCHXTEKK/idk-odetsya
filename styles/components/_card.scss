@@ -2,6 +2,10 @@
 
 .card {
   font-weight: 700;
+  transition: color var(--transition);
+  &:hover {
+    color: var(--clr-dark-gray);
+  }
 
   &__bg {
     position: relative;
@@ -23,6 +27,7 @@
   }
   &__price {
     font-size: fluid(16, 12);
+    
   }
 
 }

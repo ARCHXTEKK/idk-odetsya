@@ -35,6 +35,14 @@
       align-items: center;
       justify-content: center;
     }
+
+    &__item {
+      transition: color var(--transition);
+      &:hover {
+        color: var(--clr-dark-gray);
+      }
+    }
+
     &__sections {
       margin-bottom: rem(60);
       display: flex;
@@ -46,6 +54,10 @@
         font-size: rem(20);
         font-weight: 500;
         text-transform: uppercase;
+        transition: color var(--transition);
+        &:hover {
+          color: var(--clr-dark-gray);
+        }
         &.active {
           position: relative;
           &::after {

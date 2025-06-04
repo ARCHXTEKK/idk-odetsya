@@ -7,10 +7,16 @@
   align-items: center;
   height: max-content;
 
+  transition: color var(--transition);
+  &:hover {
+    color: var(--clr-dark-gray);
+  }
+
   & > span {
     font-weight: 700;
     font-size: rem(20);
     display: flex;
+
   }
 
   &__icon {

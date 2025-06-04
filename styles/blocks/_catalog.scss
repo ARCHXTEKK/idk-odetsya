@@ -1,6 +1,6 @@
 @use "../helpers/" as *;
 
-.favourites {
+.catalog {
   padding-bottom: fluid(120, 40);
   &__content {
     display: grid;
@@ -8,9 +8,14 @@
     justify-content: space-between;
 
     gap: rem(80) rem(40);
-
-    & .card {
-      width: max-content;
+    & > *:nth-last-child {
+      justify-self: start;
     }
+  }
+  &__filter {
+    cursor: pointer;
+    display: flex;
+    gap: rem(8);
+    margin-bottom: rem(32);
   }
 }

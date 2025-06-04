@@ -7,6 +7,7 @@
   padding-block: fluid(50, 30);
 
   color: var(--clr-white);
+  
 
   &__logo {
     width: fluid(112, 75);
@@ -20,6 +21,10 @@
 
   &__tel {
     justify-self: end;
+    transition: color var(--transition);
+    &:hover {
+      color: var(--clr-light-gray);
+    }
   }
 
   &__container {
@@ -62,6 +67,13 @@
       flex-direction: column;
       gap: fluid(20, 12);
     }
+
+    &-link {
+      transition: color var(--transition);
+      &:hover {
+        color: var(--clr-light-gray);
+      }
+    }
   }
 
   &__link {
@@ -69,6 +81,11 @@
     
     @include tablet() {
       display: none;
+    }
+
+    transition: color var(--transition);
+    &:hover {
+      color: var(--clr-light-gray);
     }
 
 
