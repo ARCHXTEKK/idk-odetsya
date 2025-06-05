@@ -1,0 +1,157 @@
+@use '../helpers/' as *;
+
+.cabinet {
+  &__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__titles {
+    display: flex;
+    flex-direction: column;
+    gap: fluid(24, 16);
+
+    margin-bottom: fluid(54, 36);
+  }
+
+  &__title {
+    font-weight: 700;
+    letter-spacing: -0.1em;
+
+    font-size: fluid(36, 24);
+  }
+
+  &__subtitle {
+    font-weight: 500;
+    font-size: fluid(20, 16);
+    letter-spacing: -0.07em;
+  }
+
+  &__content {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    gap: fluid(32, 16);
+
+  }
+
+  &__cell {
+    background-color: var(--clr-primary);
+    padding: fluid(40, 20);
+    display: flex;
+    flex-direction: column;
+
+    & .btn {
+      max-width: rem(195);
+      font-weight: 500;
+      width: 100%;
+      letter-spacing: -0.11em;
+    }
+
+    & .form__input {
+      font-size: rem(14);
+      font-weight: 500;
+      padding: rem(14) fluid(26, 20);
+    }
+
+    &-info {
+      display: flex;
+      align-items: center;
+      gap: rem(8);
+      margin-bottom: rem(20);
+
+    }
+
+    &-title {
+      font-size: rem(20);
+      font-weight: 700;
+    }
+
+    &-form {
+      display: flex;
+      flex-direction: column;
+      gap: fluid(36, 24);
+      &-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: fluid(40, 20);
+      }
+    }
+
+    &-orders {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    &-password {
+      max-width: 100%;
+      padding-right: fluid(40, 0);
+      gap: rem(36);
+
+      & .form__rows {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      & .form__row {
+        max-width: 100%;
+        width: 100%;
+      }
+
+      
+    }
+
+    &-promo {
+      display: flex;
+      flex-direction: column;
+      justify-content: end;
+      gap: fluid(56, 48);
+      height: 100%;
+      padding-bottom: fluid(80, 50);
+      &-status {
+        font-size: rem(14);
+      }
+
+      & .subscribe__form {
+        max-width: 100%;
+        &-submit {
+          padding-right: rem(40);
+        }
+        
+
+        &-label {
+          font-size: rem(14);
+          font-weight: 500;
+        }
+        & button, input, span {
+          font-size: rem(14);
+          font-weight: 500;
+        }
+        & .input-1 {
+          background-color: transparent;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    display: flex;
+    align-items: center;
+    padding-block: fluid(36, 20);
+    font-size: rem(20);
+    font-weight: 500;
+    transition: color var(--transition);
+
+    
+  }
+  &__exit-text {
+    &:hover {
+      color: var(--clr-dark-gray)
+    }
+  }
+}

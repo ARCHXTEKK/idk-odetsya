@@ -1,0 +1,35 @@
+@use '../helpers/' as *;
+
+.orders {
+  width: 100%;
+
+  &__order {
+    width: 100%;
+    padding: fluid(36, 24) fluid(24, 16);
+  
+    border: 1px solid var(--clr-black);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    font-size: rem(14);
+    letter-spacing: -0.06em;
+
+    gap: rem(16);
+
+    &-info {
+      display: flex;
+      flex-direction: column;
+      gap: rem(8);
+    }
+
+    &-id {
+      text-decoration: underline;
+    }
+
+    &-status {
+      font-weight: 400;
+    }
+  }
+}

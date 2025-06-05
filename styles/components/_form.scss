@@ -13,6 +13,12 @@
     gap: rem(10);
   }
 
+  &__rows {
+    display: flex;
+    flex-direction: column;
+    gap: rem(16);
+  }
+
   &__label {
     color: var(--clr-light-gray);
     font-size: fluid(20, 16);
@@ -52,6 +58,24 @@
     &:hover {
     color: var(--clr-dark-gray);
 
+    }
+  }
+
+  &--beige {
+    .form {
+      &__input {
+        background-color: transparent;
+        font-weight: 500;
+        font-size: rem(16);
+        letter-spacing: -0.11em;
+
+      }
+
+      &__label {
+        font-weight: 500;
+        font-size: rem(16);
+        letter-spacing: -0.11em;
+      }
     }
   }
 }

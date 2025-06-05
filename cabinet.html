@@ -258,318 +258,136 @@
 
   <main class="main">
 
-    <section class="hero text-block">
-
-      <!-- put your title in the block below, it won't be shown, but it will be accessible for search engines and screenreaders -->
-      <h1 class="hidden">
-        ODETSYA clothing store
-      </h1>
-
-      <picture>
-        <source srcset="assets/images/hero/hero__bg.avif" type="image/avif">
-        <source srcset="assets/images/hero/hero__bg.webp" type="image/webp">
-        <img src="assets/images/hero/hero__bg.jpg" alt="" class="text-block__bg">
-      </picture>
-
-      <div class="container text-block__container">
-
-        <h2 class="text-block__title">
-          New collection
-        </h2>
-        <p class="text-block__subtitle">
-          SUMMER 2025
-        </p>
-
-      </div>
-    </section>
-
-    <div class="promo">
-      <div class="container promo__container">
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-      </div>
-    </div>
-
-    <section class="products">
-
-      <div class="container products__container">
-
-        <div class="product-carousel__button-prev">
-          <img src="assets/icons/arrow-left.svg" alt="">
+    <section class="cabinet">
+      <div class="container cabinet__container">
+        <div class="cabinet__titles">
+          <h1 class="cabinet__title">ЛИЧНЫЙ КАБИНЕТ</h1>
+          <p class="cabinet__subtitle">Здравствуйте, Иван! Добро пожаловать в ваш личный кабинет.</p>
         </div>
 
-        <div class="swiper product-carousel">
-          <div class="swiper-wrapper product-carousel__wrapper">
-
-            <div class="swiper-slide card">
-              <div class="card__bg">
-
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/1.avif" type="image/avif">
-                    <source srcset="assets/images/products/1.webp" type="image/webp">
-                    <img src="assets/images/products/1.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
-
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
-              </div>
-              <a href="details.html">
-                <h3 class="card__title">
-
-                  Юбка Мини
-                </h3>
-                <p class="card__price">
-                  1500 р
-                </p>
-              </a>
+        <div class="cabinet__content">
+          <div class="cabinet__cell">
+            <div class="cabinet__cell-info">
+              <img src="assets/icons/personal-information.svg" alt="" class="cabinet__cel-img">
+              <h2 class="cabinet__cell-title">ЛИЧНАЯ ИНФОРМАЦИЯ</h2>
             </div>
 
-            <div class="swiper-slide card">
-              <div class="card__bg">
+            <form action="" class="form form--beige cabinet__cell-form">
 
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/2.avif" type="image/avif">
-                    <source srcset="assets/images/products/2.webp" type="image/webp">
-                    <img src="assets/images/products/2.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
-
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
+              <div class="cabinet__cell-form-wrapper">
+                <div class="form__row">
+                  <label for="name" class="form__label">Имя</label>
+                  <input id="name" type="text" class="form__input" placeholder="Иван">
+                </div>
+                <div class="form__row">
+                  <label for="surname" class="form__label">Фамилия</label>
+                  <input id="surname" type="text" class="form__input" placeholder="Иванов">
+                </div>
+                <div class="form__row">
+                  <label for="tel" class="form__label">Телефон</label>
+                  <input id="tel" type="text" class="form__input" placeholder="+7 999 000 90 90">
+                </div>
+                <div class="form__row">
+                  <label for="email" class="form__label">Email</label>
+                  <input id="email" type="text" class="form__input" placeholder="Иван">
+                </div>
               </div>
-              <a href="details.html">
-                <h3 class="card__title">
-                  Штаны Карго
-                </h3>
-                <p class="card__price">
-                  2500 р
-                </p>
-              </a>
+
+              <button class="btn btn--black">Сохранить</button>
+
+            </form>
+          </div>
+
+          <div class="cabinet__cell">
+            <div class="cabinet__cell-info">
+              <img src="assets/icons/orders.svg" alt="" class="cabinet__cel-img">
+              <h2 class="cabinet__cell-title">Заказы</h2>
             </div>
 
-            <div class="swiper-slide card">
-              <div class="card__bg">
-
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/3.avif" type="image/avif">
-                    <source srcset="assets/images/products/3.webp" type="image/webp">
-                    <img src="assets/images/products/3.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
-
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
+            <div class="cabinet__cell-orders orders">
+              <div class="orders__order">
+                <div class="orders__order-info">
+                  <p class="orders__order-name">
+                    <a href="details.html" class="orders__order-id">
+                      № 97640923456
+                    </a>
+                    <span class="orders__order-text">
+                      от 5.04.2025
+                    </span>
+                  </p>
+                  <p class="orders__order-status">
+                    Оплачен. Заказ в работе
+                  </p>
+                </div>
+                <div class="orders__order-price">
+                  2500 Р
+                </div>
               </div>
-              <a href="details.html">
-                <h3 class="card__title">
-                  Топ серый
-                </h3>
-                <p class="card__price">
-                  2000 р
-                </p>
-              </a>
             </div>
 
-            <div class="swiper-slide card">
-              <div class="card__bg">
 
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/1.avif" type="image/avif">
-                    <source srcset="assets/images/products/1.webp" type="image/webp">
-                    <img src="assets/images/products/1.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
+          </div>
 
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
-              </div>
-              <a href="details.html">
-                <h3 class="card__title">
-                  Юбка Мини
-                </h3>
-                <p class="card__price">
-                  1500 р
-                </p>
-              </a>
+          <div class="cabinet__cell">
+            <div class="cabinet__cell-info">
+              <img src="assets/icons/password.svg" alt="" class="cabinet__cel-img">
+              <h2 class="cabinet__cell-title">Пароль</h2>
             </div>
 
-            <div class="swiper-slide card">
-              <div class="card__bg">
-
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/2.avif" type="image/avif">
-                    <source srcset="assets/images/products/2.webp" type="image/webp">
-                    <img src="assets/images/products/2.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
-
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
+            <form action="" class="form form--beige cabinet__cell-password">
+              <div class="form__rows">
+                <div class="form__row">
+                  <label for="oldpassword" class="form__label">Старый пароль</label>
+                  <input type="text" class="form__input" id="oldpassword">
+                </div>
+                <div class="form__row">
+                  <label for="newpassword" class="form__label">Новый пароль</label>
+                  <input type="text" class="form__input" id="newpassword">
+                </div>
               </div>
-              <h3 class="card__title">
-                Штаны Карго
-              </h3>
-              <p class="card__price">
-                2500 р
+
+              <button class="btn btn--black">
+                ИЗМЕНИТЬ
+              </button>
+
+            </form>
+
+          </div>
+
+          <div class="cabinet__cell">
+
+            <div class="cabinet__cell-info">
+              <img src="assets/icons/password.svg" alt="" class="cabinet__cel-img">
+              <h2 class="cabinet__cell-title">Промокоды</h2>
+            </div>
+            <div class="cabinet__cell-promo">
+              <p class="cabinet__cell-promo-status">
+                Сейчас у вас нет доступных промокодов.
               </p>
+
+              <form action="/" class="subscribe__form cabinet-cell__subscribe">
+                <label class="subscribe__form-label" for="subscribe-email">Получите 500 рублей при подписке на рассылку!
+                  Узнавайте о новостях бренда первыми.</label>
+                <div class="subscribe__form-submit">
+                  <input id="subscribe-email" type="email" class="input-1" placeholder="e-mail">
+                  <button type="submit" class="link-w-icon">
+                    <span>подписаться</span>
+                    <img src="assets/icons/arrow-right-top.svg" alt="" class="link-w-icon__icon">
+                  </button>
+                </div>
+              </form>
             </div>
-
-            <div class="swiper-slide card">
-              <div class="card__bg">
-
-                <a href="/details.html">
-                  <picture>
-                    <source srcset="assets/images/products/3.avif" type="image/avif">
-                    <source srcset="assets/images/products/3.webp" type="image/webp">
-                    <img src="assets/images/products/3.jpg" alt="чёрная мини юбка" class="card__bg-img">
-                  </picture>
-                </a>
-
-                <button class="icon-btn card__bg-btn">
-                  <img src="assets/icons/heart.svg" alt="">
-                </button>
-
-              </div>
-              <h3 class="card__title">
-                Топ серый
-              </h3>
-              <p class="card__price">
-                2000 р
-              </p>
-            </div>
-
-
           </div>
         </div>
 
-        <div class="product-carousel__button-next">
-          <img src="assets/icons/arrow-right.svg" alt="">
+        <div class="cabinet__footer">
+          <button class="cabinet__exit">
+            <img src="assets/icons/exit.svg" alt="" class="cabinet__exit-img">
+            <span class="cabinet__exit-text">
+              Выйти
+            </span>
+          </button>
         </div>
-
-      </div>
-
-    </section>
-
-    <section class="trends text-block">
-
-      <picture>
-        <source srcset="assets/images/trends/trends-bg.avif" type="image/avif">
-        <source srcset="assets/images/trends/trends-bg.webp" type="image/webp">
-        <img src="assets/images/trends/trends-bg.jpg" alt="" class="text-block__bg">
-      </picture>
-
-      <div class="container text-block__container">
-
-        <h2 class="text-block__title">
-          Trends
-        </h2>
-        <p class="text-block__subtitle">
-          2025
-        </p>
-
-      </div>
-    </section>
-
-    <div class="promo">
-      <div class="container promo__container">
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-        <div class="promo-text">
-          Промокод shop10 10%
-        </div>
-      </div>
-    </div>
-
-    <section class="links">
-      <div class="container links__container">
-        <a href="/" class="links__item">
-          <div class="links__text-wrapper">
-            <picture>
-              <source srcset="assets/images/links/1.avif" type="image/avif">
-              <source srcset="assets/images/links/1.webp" type="image/webp">
-              <img src="assets/images/links/1.jpg" alt="" class="links__item-img">
-            </picture>
-            <div class="links__item-text">ВЕСНА</div>
-          </div>
-        </a>
-
-        <a href="/" class="links__item">
-          <div class="links__text-wrapper">
-            <picture>
-              <source srcset="assets/images/links/2.avif" type="image/avif">
-              <source srcset="assets/images/links/2.webp" type="image/webp">
-              <img src="assets/images/links/2.jpg" alt="" class="links__item-img">
-            </picture>
-            <div class="links__item-text">ПОПУЛЯРНОЕ</div>
-          </div>
-        </a>
-
-        <a href="/" class="links__item">
-          <div class="links__text-wrapper">
-            <picture>
-              <source srcset="assets/images/links/3.avif" type="image/avif">
-              <source srcset="assets/images/links/3.webp" type="image/webp">
-              <img src="assets/images/links/3.jpg" alt="" class="links__item-img">
-            </picture>
-            <div class="links__item-text">РАСПРОДАЖА</div>
-          </div>
-        </a>
-
-      </div>
-    </section>
-
-    <section class="subscribe">
-      <div class="container subscribe__container">
-        <h2 class="subscribe__title">
-          ПОЛУЧИТЕ СКИДКУ
-        </h2>
-
-        <form action="/" class="subscribe__form">
-          <label class="subscribe__form-label" for="subscribe-email">Получите 500 рублей при подписке на рассылку!
-            Узнавайте о новостях бренда первыми.</label>
-          <div class="subscribe__form-submit">
-            <input id="subscribe-email" type="email" class="input-1" placeholder="e-mail">
-            <button type="submit" class="link-w-icon">
-              <span>подписаться</span>
-              <img src="assets/icons/arrow-right-top.svg" alt="" class="link-w-icon__icon">
-            </button>
-          </div>
-        </form>
-
-        <div class="subscribe__mobile-content">
-          <a href="/" class="link-w-icon">
-            <span>Подпишитесь на нашу рассылку и получите купон на 500 рублей </span>
-            <img src="assets/icons/arrow-right-top.svg" alt="" class="link-w-icon__icon">
-          </a>
-        </div>
-
       </div>
     </section>
 

@@ -20,6 +20,7 @@
 @use './components/form';
 @use './components/form-2';
 @use './components/text';
+@use './components/orders';
 
 @use './blocks/container';
 @use './blocks/header';
@@ -38,3 +39,4 @@
 @use './blocks/modal';
 @use './blocks/catalog';
 @use './blocks/faq';
+@use './blocks/cabinet';
