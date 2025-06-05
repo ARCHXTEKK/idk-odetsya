@@ -1,0 +1,129 @@
+@use '../helpers/' as *;
+
+.order {
+
+  &__container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: rem(16);
+
+    @include laptop() {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__form {
+    max-width: rem(456);
+    display: flex;
+    flex-direction: column;
+    gap: rem(32);
+    padding-bottom: rem(40);
+    @include laptop() {
+      order: 2;
+    }
+
+    &-row {
+      display: flex;
+      flex-direction: column;
+      gap: rem(16);
+    }
+
+    &-legend {
+      font-weight: 700;
+      font-size: rem(20);
+      appearance: none;
+      &--disclaimer {
+        font-size: rem(16);
+        font-weight: 500;
+        color: var(--clr-light-gray);
+      }
+    }
+
+    &-btn {
+      font-weight: 500;
+      font-size: rem(16);
+    }
+
+    &-input {
+      padding: rem(16) rem(20);
+      border: 1px solid var(--clr-light-gray);
+      font-weight: 500;
+      &::placeholder {
+        color: var(--clr-light-gray)
+      }
+    }
+    &-radio {
+      
+      &-wrapper {
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: rem(18);
+        border: 1px solid var(--clr-black);
+        padding: rem(16) rem(20);
+        background-color: var(--clr-primary);
+      }
+      &-price {
+        margin-left: auto;
+      }
+    }
+  }
+
+  &__total {
+    position: relative;
+    padding: rem(70) fluid(100, 0);
+    padding-right: 0;
+    padding-bottom: rem(40);
+
+    @include laptop() {
+      order: 1;
+      padding: 0;
+      max-width: rem(456);
+      width: 100%;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 999rem;
+      height: 100%;
+      background-color: var(--clr-primary);
+      z-index: -1;
+
+      @include laptop() {
+        display: none;
+      }
+    }
+
+    & .modal-cart__card {
+      background-color: var(--clr-white);
+      margin-bottom: rem(36);
+    }
+
+    &-text {
+      margin-bottom: rem(50);
+      font-size: rem(20);
+      font-weight: 700;
+    }
+
+    &-summary {
+      display: flex;
+      flex-direction: column;
+      gap: rem(24);
+    }
+
+    &-item {
+      display: flex;
+      justify-content: space-between;
+      font-size: rem(16);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+  }
+}

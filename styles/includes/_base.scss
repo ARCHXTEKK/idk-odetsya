@@ -1,3 +1,5 @@
+@use '../helpers/' as *;
+
 body {
   font-family: "Gotham Pro";
   color: var(--clr-black);
@@ -14,5 +16,39 @@ body:has(.modal-wrapper.active) {
 
 main {
   flex-grow: 1;
+}
+
+input[type='radio'] {
+  appearance: none;
+  border: 2px solid var(--clr-black);
+  width: rem(16);
+  height: rem(16);
+  
+  border-radius: 50%;
+  cursor: pointer;
+  transition: border-color var(--transition);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &:checked {
+    border-color: green;
+    &::after {
+      background-color: green;
+      opacity: 1;
+    }
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    width: rem(8);
+    height: rem(8);
+    background-color: var(--clr-black);
+    border-radius: 50%;
+    opacity: 0;
+
+    transition: background-color var(--transition), opacity var(--transition);
+  }
 }
 

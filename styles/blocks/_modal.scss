@@ -264,7 +264,7 @@
         gap: rem(8);
         & > .row {
           display: flex;
-          gap: fluid(16, 8);
+          gap: fluid(24, 16);
           & > h3 {
             font-size: rem(20);
             font-weight: 700;
