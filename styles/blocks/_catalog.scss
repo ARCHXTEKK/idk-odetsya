@@ -11,6 +11,10 @@
     & > *:nth-last-child {
       justify-self: start;
     }
+
+    @include tablet() {
+      gap: fluid(80, 20) fluid(40, 10);
+    }
   }
   &__filter {
     cursor: pointer;

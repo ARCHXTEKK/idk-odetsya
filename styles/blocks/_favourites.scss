@@ -9,6 +9,10 @@
 
     gap: rem(80) rem(40);
 
+    @include tablet() {
+      gap: fluid(80, 20) fluid(40, 10);
+    }
+
     & .card {
       width: max-content;
     }

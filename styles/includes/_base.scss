@@ -3,6 +3,13 @@ body {
   color: var(--clr-black);
   display: flex;
   flex-direction: column;
+  position: static;
+  overflow-x: hidden;
+}
+
+body:has(.modal-wrapper.active) {
+  position: fixed;
+  overflow-y: scroll;
 }
 
 main {

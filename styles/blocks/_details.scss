@@ -6,16 +6,34 @@
   &__content {
     display: flex;
     justify-content: space-between;
+
+    gap: rem(16);
+
+    @include laptop() {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
   &__product {
     max-width: rem(489);
-
+ 
+    @include laptop() {
+      max-width: rem(800);
+    }
   }
 
   &__slider {
     max-width: rem(516);
     margin-right: auto;
     margin-left: 0 !important;
+    @include laptop() {
+      margin-inline: auto !important;
+    }
+
+    @include tablet-sm() {
+      max-width: 100%;
+    }
   }
 
   

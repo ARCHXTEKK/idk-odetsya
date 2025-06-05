@@ -22,16 +22,24 @@
 
   &__button-prev {
     left: -80px;
-    @include laptop() {
-      left: rem(7); 
+    @include laptop-l() {
+      left: 0;
+    }
+
+    @include laptop-m() {
+      left: rem(6);
     }
   }
 
   &__button-next {
     right: -80px;
 
-    @include laptop() {
-      right: rem(7)
+    @include laptop-l() {
+      right: 0;
+    }
+
+    @include laptop-m() {
+      right: rem(6);
     }
   }
 

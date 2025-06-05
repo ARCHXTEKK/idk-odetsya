@@ -65,6 +65,14 @@
   }
 };
 
+//
+
+@mixin laptop-m {
+  @media (max-width: $laptop-m) {
+    @content
+  }
+};
+
 // 
  
 @mixin laptop-l {

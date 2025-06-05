@@ -14,6 +14,10 @@ function initializeSliders() {
     slidesPerView: 3,
     breakpoints: {
       320: {
+        slidesPerView: 3,
+        spaceBetween: 13
+      },
+      480: {
         slidesPerView: 2.85
       },
       664: {
@@ -35,6 +39,17 @@ function initializeModals() {
   cartModal();
   closeOnClickOutside();
 
+  let scroll = 0;
+
+  function initializeScrollBlock() {
+    scroll = window.scrollY;
+    document.body.style.top = `-${scroll}px`;
+  }
+
+  function resetScroll() {
+    window.scroll({ top: scroll, left: 0, behavior: 'instant' });
+  }
+
   function closeOnClickOutside() {
     modalWrapper.addEventListener('click', (e) => {
       let modals = [modalSearch, modalSections, modalCart]
@@ -43,6 +58,7 @@ function initializeModals() {
         modalSections.classList.remove('active');
         modalSearch.classList.remove('active');
         modalCart.classList.remove('active');
+        resetScroll();
       }
     })
   }
@@ -54,13 +70,16 @@ function initializeModals() {
     const burger = document.querySelector('[data-js-burger-btn]');
 
     burger.addEventListener('click', () => {
+      initializeScrollBlock();
       modalWrapper.classList.add('active');
       modalSections.classList.add('active');
+
     })
 
     modalSectionsClose.addEventListener('click', () => {
       modalWrapper.classList.remove('active');
       modalSections.classList.remove('active');
+      resetScroll();
     });
   }
 
@@ -69,6 +88,7 @@ function initializeModals() {
     const modalSearchClose = document.querySelector('.modal-search__close');
 
     searchBtn.addEventListener('click', () => {
+      initializeScrollBlock();
       modalWrapper.classList.add('active');
       modalSearch.classList.add('active');
     })
@@ -76,6 +96,7 @@ function initializeModals() {
     modalSearchClose.addEventListener('click', () => {
       modalWrapper.classList.remove('active');
       modalSearch.classList.remove('active');
+      resetScroll();
     })
 
   }
@@ -85,6 +106,7 @@ function initializeModals() {
     const cartClose = document.querySelector('.modal-cart__close');
 
     cartBtn.addEventListener('click', () => {
+      initializeScrollBlock();
       modalWrapper.classList.add('active');
       modalCart.classList.add('active');
     })
@@ -92,6 +114,7 @@ function initializeModals() {
     cartClose.addEventListener('click', () => {
       modalWrapper.classList.remove('active');
       modalCart.classList.remove('active');
+      resetScroll();
     })
   }
 

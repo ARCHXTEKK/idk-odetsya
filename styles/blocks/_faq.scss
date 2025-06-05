@@ -1,0 +1,47 @@
+@use '../helpers/' as *;
+
+.faq {
+  &__info {
+    display: flex;
+    flex-direction: column;
+    gap: rem(24);
+    &-block {
+      display: flex;
+      flex-direction: column;
+      gap: rem(12);
+    }
+  }
+  &__row {
+    display: flex;
+    gap: rem(40);
+  }
+
+  &__link-gray {
+    color: var(--clr-gray);
+    font-weight: 500;
+  }
+
+  &__links {
+    display: flex;
+    flex-direction: column;
+    gap: rem(40);
+    margin-top: rem(80);
+    margin-bottom: rem(80);
+  }
+
+  &__link {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    line-height: 2;
+    gap: rem(40);
+    font-weight: 500;
+    font-size: fluid(20, 14);
+    letter-spacing: -0.1em;
+
+    &::after {
+      content: url('../../assets/icons/arrow-short-bottom.svg');
+      display: block;
+    }
+  }
+}

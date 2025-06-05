@@ -3,4 +3,46 @@
 .logo {
   width: fluid(154, 87);
   height: fluid(28, 16);
+
+  &:has(p) {
+    width: auto;
+    height: auto;
+  }
+
+  & > p {
+    font-family: 'Gotham Pro';
+    color: var(--clr-black);
+    font-size: fluid(36, 20);
+    font-weight: 500;
+    letter-spacing: -0.11em;
+    -webkit-text-stroke: 1px var(--clr-black);
+    
+    transition: color var(--transition);
+  }
+  
+  &:hover {
+    & > p {
+      color: var(--clr-white);
+    }
+    // & > img {
+    //   // animation: logoHover 0.1s forwards 1;
+    //  content: url('../../assets/icons/logo_hovere.svg');    
+
+    // }
+  }
+}
+
+@keyframes logoHover {
+  0% {
+
+  }
+
+  90% {
+    // opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+    content: url('../../assets/icons/logo_hovere.svg');    
+  }
 }

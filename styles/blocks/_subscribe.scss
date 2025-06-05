@@ -52,5 +52,6 @@
     @include tablet-sm-above() {
       display: none;
     }
+    font-size: fluid(20, 14);
   }
 }
