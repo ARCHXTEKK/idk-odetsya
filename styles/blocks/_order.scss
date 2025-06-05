@@ -2,6 +2,11 @@
 
 .order {
 
+  &-main {
+    display: flex;
+    flex-direction: column;
+  }
+
   &__container {
     display: grid;
     grid-template-columns: auto auto;

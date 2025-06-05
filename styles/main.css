@@ -961,6 +961,7 @@ input[type=radio]::after {
   text-transform: uppercase;
   color: var(--clr-white);
   background-color: var(--clr-dark);
+  text-align: center;
   transition: background-color var(--transition);
 }
 .btn:hover {
@@ -1215,6 +1216,10 @@ input[type=radio]::after {
   padding-inline: var(--padding);
 }
 
+.order-main {
+  display: flex;
+  flex-direction: column;
+}
 .order__container {
   display: grid;
   grid-template-columns: auto auto;
@@ -2319,6 +2324,42 @@ input[type=radio]::after {
 }
 .cabinet__exit-text:hover {
   color: var(--clr-dark-gray);
+}
+
+.success__container {
+  padding-top: clamp(8.75rem, 6.3461538462rem + 9.6153846154vw, 15rem);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.success__container div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+@media (max-width: 425px) {
+  .success__container {
+    padding-right: 1.25rem;
+  }
+}
+.success__bg-img {
+  position: absolute;
+  z-index: -1;
+  width: clamp(12.0625rem, 5.5721153846rem + 25.9615384615vw, 28.9375rem);
+}
+.success__title {
+  font-size: clamp(1.25rem, 0.8653846154rem + 1.5384615385vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.09em;
+}
+.success__text {
+  font-size: clamp(0.875rem, 0.7307692308rem + 0.5769230769vw, 1.25rem);
+  font-weight: 400;
+}
+.success__text a {
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=main.css.map */
