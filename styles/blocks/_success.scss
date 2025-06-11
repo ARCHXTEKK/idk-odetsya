@@ -1,8 +1,11 @@
 @use '../helpers/' as *;
 
 .success {
+  &-main {
+    overflow: hidden;
+  }
   &__container {
-    padding-top: fluid(240, 140);
+    padding-block: fluid(300, 140) fluid(240, 140);
     flex: 1;
     display: flex;
     flex-direction: column;

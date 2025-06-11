@@ -1,139 +1,139 @@
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-BoldItalic.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-BoldItalic.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-BoldItalic.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-BoldItalic.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Light.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Light.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Light.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Light.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Medium.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Medium.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Medium.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Medium.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Black.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Black.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Black.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Italic.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Italic.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Italic.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Italic.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Bold.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Bold.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Bold.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-MediumItalic.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-MediumItalic.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-MediumItalic.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-MediumItalic.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-BlackItalic.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-BlackItalic.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-BlackItalic.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-BlackItalic.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-LightItalic.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-LightItalic.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-LightItalic.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-LightItalic.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-BlackItalic_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-BlackItalic_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-BlackItalic_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-BlackItalic_1.ttf") format("truetype");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Black_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Black_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Black_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Black_1.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Bold_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Bold_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Bold_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Bold_1.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-LightItalic_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-LightItalic_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-LightItalic_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-LightItalic_1.ttf") format("truetype");
   font-weight: 300;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-BoldItalic_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-BoldItalic_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-BoldItalic_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-BoldItalic_1.ttf") format("truetype");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Medium_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Medium_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Medium_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Medium_1.ttf") format("truetype");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Light_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Light_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Light_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Light_1.ttf") format("truetype");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-MediumItalic_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-MediumItalic_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-MediumItalic_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-MediumItalic_1.ttf") format("truetype");
   font-weight: 500;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro-Italic_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro-Italic_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro-Italic_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro-Italic_1.ttf") format("truetype");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 @font-face {
   font-family: "Gotham Pro";
-  src: url("../../assets/fonts/gothampro/GothamPro_1.woff2") format("woff2"), url("../../assets/fonts/gothampro/GothamPro_1.ttf") format("truetype");
+  src: url("../assets/fonts/gothampro/GothamPro_1.woff2") format("woff2"), url("../assets/fonts/gothampro/GothamPro_1.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1272,6 +1272,7 @@ input[type=radio]::after {
   color: var(--clr-light-gray);
 }
 .order__form-radio-wrapper {
+  cursor: pointer;
   font-weight: 500;
   display: flex;
   align-items: center;
@@ -2188,18 +2189,35 @@ input[type=radio]::after {
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+.faq__links-item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.faq__links-item.active__link::after {
+  transform: rotate(90deg);
+}
+.faq__anwser {
+  display: none;
+}
+.faq__anwser.active {
+  display: block;
+}
 .faq__link {
   display: flex;
   justify-content: space-between;
   align-items: start;
-  line-height: 2;
+  line-height: 1;
+  margin-bottom: 1em;
   gap: 2.5rem;
   font-weight: 500;
-  font-size: clamp(0.875rem, 0.7307692308rem + 0.5769230769vw, 1.25rem);
+  font-size: clamp(1rem, 0.9038461538rem + 0.3846153846vw, 1.25rem);
+  text-align: left;
   letter-spacing: -0.1em;
 }
 .faq__link::after {
-  content: url("../../assets/icons/arrow-short-bottom.svg");
+  content: url("../assets/icons/arrow-short-bottom.svg");
   display: block;
 }
 
@@ -2229,17 +2247,35 @@ input[type=radio]::after {
   grid-template-rows: 1fr 1fr;
   gap: clamp(1rem, 0.6153846154rem + 1.5384615385vw, 2rem);
 }
+@media (max-width: 768px) {
+  .cabinet__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.25rem;
+  }
+}
 .cabinet__cell {
   background-color: var(--clr-primary);
   padding: clamp(1.25rem, 0.7692307692rem + 1.9230769231vw, 2.5rem);
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 664px) {
+  .cabinet__cell {
+    background-color: transparent;
+    padding: 0;
+  }
+}
 .cabinet__cell .btn {
   max-width: 12.1875rem;
   font-weight: 500;
   width: 100%;
   letter-spacing: -0.11em;
+}
+@media (max-width: 664px) {
+  .cabinet__cell .btn {
+    max-width: 100%;
+  }
 }
 .cabinet__cell .form__input {
   font-size: 0.875rem;
@@ -2265,6 +2301,18 @@ input[type=radio]::after {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: clamp(1.25rem, 0.7692307692rem + 1.9230769231vw, 2.5rem);
+}
+@media (max-width: 768px) {
+  .cabinet__cell-form-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+@media (max-width: 664px) {
+  .cabinet__cell-form-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 }
 .cabinet__cell-orders {
   display: flex;
@@ -2326,8 +2374,11 @@ input[type=radio]::after {
   color: var(--clr-dark-gray);
 }
 
+.success-main {
+  overflow: hidden;
+}
 .success__container {
-  padding-top: clamp(8.75rem, 6.3461538462rem + 9.6153846154vw, 15rem);
+  padding-block: clamp(8.75rem, 4.9038461538rem + 15.3846153846vw, 18.75rem) clamp(8.75rem, 6.3461538462rem + 9.6153846154vw, 15rem);
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -2360,6 +2411,216 @@ input[type=radio]::after {
 }
 .success__text a {
   text-decoration: underline;
+}
+
+/* Стили корзины */
+.modal-cart {
+  max-width: 500px;
+  width: 90%;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-cart__products {
+  max-height: 60vh;
+  overflow-y: auto;
+  margin-bottom: 20px;
+}
+
+.modal-cart__card {
+  display: flex;
+  gap: 15px;
+  padding: 15px 0;
+  border-bottom: 1px solid #eee;
+  position: relative;
+}
+
+.modal-cart__card-img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.modal-cart__card-content {
+  flex: 1;
+}
+
+.modal-cart__card-title {
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+.modal-cart__card-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.modal-cart__card-detail {
+  min-width: 60px;
+}
+
+.modal-cart__card-detail h4 {
+  font-size: 12px;
+  color: var(--clr-gray);
+  margin-bottom: 3px;
+}
+
+.modal-cart__card-detail p {
+  font-size: 14px;
+}
+
+.modal-cart__card-price {
+  font-weight: 700;
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.modal-cart__card-quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-cart__card-quantity button {
+  width: 25px;
+  height: 25px;
+  border: 1px solid #ddd;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-cart__total {
+  margin-top: auto; /* Прижимаем к низу */
+  padding-top: 20px;
+  border-top: 1px solid #eee;
+}
+
+.modal-cart__total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.modal-cart__total-sum {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.modal-cart .btn {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Уведомление о добавлении в корзину */
+.cart-notification {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--clr-dark);
+  color: white;
+  padding: 12px 25px;
+  border-radius: 4px;
+  font-size: 14px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.cart-notification.show {
+  opacity: 1;
+}
+
+/* Адаптивность */
+@media (max-width: 480px) {
+  .modal-cart {
+    padding: 15px;
+  }
+  
+  .modal-cart__card {
+    flex-direction: column;
+  }
+  
+  .modal-cart__card-img {
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+  }
+  
+  .modal-cart__card-content .row {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+
+/* Обновленные стили для кнопки */
+.modal-cart .btn {
+  display: block;
+  width: 100%;
+  max-width: 300px; /* Можно регулировать по желанию */
+  padding: 15px;
+  margin: 20px auto 0; /* Центрирование */
+  text-align: center;
+  background: var(--clr-dark);
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.modal-cart .btn:hover {
+  background: var(--clr-black);
+}
+
+/* Для мобильных устройств */
+@media (max-width: 480px) {
+  .modal-cart .btn {
+    max-width: 100%;
+  }
+}
+
+.modal-cart {
+  position: relative;
+}
+
+.modal-cart__footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.modal-cart__checkout-btn {
+  width: 100%;
+  max-width: 300px; 
+  margin: 0 auto;
+}
+
+.modal-cart {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%; 
+}
+
+.modal-cart__products {
+  flex-grow: 1;
 }
 
 /*# sourceMappingURL=main.css.map */

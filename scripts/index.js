@@ -1,6 +1,7 @@
 initializeSliders();
 initializeModals();
 initializeTabs();
+initializeFavs();
 
 function initializeSliders() {
   const productCarousel = new Swiper('.product-carousel', {
@@ -139,3 +140,30 @@ function initializeTabs() {
     tabs[1].classList.add('active');
   })
 }
+
+function initializeFavs() {
+  const favBtns = document.querySelectorAll('.card__bg-btn');
+
+  favBtns?.forEach(favBtn => {
+    favBtn.addEventListener('click', function () {
+      this.classList.toggle('liked');
+      if (this.classList.contains('liked')) {
+        this.innerHTML = `
+          <img src="assets/icons/heart-filled.svg" alt=""/>
+        `
+      }
+      else {
+        this.innerHTML = `
+          <img src="assets/icons/heart.svg" alt=""/>
+        `
+      }
+
+      if (document.querySelector('.favourites')) {
+        if (!this.classList.contains('liked')) {
+          this.parentElement.parentElement.remove();
+        }
+      }
+    })
+  })
+}
+
